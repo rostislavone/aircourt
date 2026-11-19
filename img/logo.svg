@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 138 40" width="138" height="40">
+  <!-- aircourt: буква o заменена мячом -->
+  <g font-family="'Segoe UI', Arial, sans-serif" font-weight="800" font-size="36" fill="#FFFFFF" letter-spacing="-1.5">
+    <text x="0" y="30">airc</text>
+    <text x="83" y="30">urt</text>
+  </g>
+  <g transform="translate(71 20.5)">
+    <circle r="10" fill="#FF6A00"/>
+    <path d="M-10 0H10M0 -10V10M-7 -7C-2.8 -3.2 -2.8 3.2 -7 7M7 -7C2.8 -3.2 2.8 3.2 7 7" stroke="#0A0A0A" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>

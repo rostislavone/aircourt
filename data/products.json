@@ -1,0 +1,359 @@
+[
+ {
+  "ProductID": 15,
+  "ProductName": "Hoops Elite Pro 38L",
+  "Price": 7990,
+  "CategoryID": 4,
+  "BrandID": 1,
+  "ImagePath": "gear-hoops-backpack.png",
+  "IsNew": 1,
+  "BrandName": "Nike",
+  "Image": "images/gear-hoops-backpack.png",
+  "Size": "",
+  "Color": "Белый / чёрный",
+  "Description": "Большой рюкзак для игры: отдельный карман для обуви, отсек для мяча снизу и водоотталкивающее дно.",
+  "Stock": 11,
+  "CategoryName": "Экипировка",
+  "Gallery": [
+   "images/gear-hoops-backpack.png",
+   "images/gear-hoops-backpack-2.png",
+   "images/gear-hoops-backpack-3.png",
+   "images/gear-hoops-backpack-4.png"
+  ]
+ },
+ {
+  "ProductID": 12,
+  "ProductName": "Kobe All-Court 8P",
+  "Price": 4490,
+  "CategoryID": 3,
+  "BrandID": 1,
+  "ImagePath": "ball-kobe-all-court.png",
+  "IsNew": 1,
+  "BrandName": "Nike",
+  "Image": "images/ball-kobe-all-court.png",
+  "Size": "7",
+  "Color": "Фиолетовый / золотой",
+  "Description": "Мяч в цветах «Лейкерс» с логотипом Коби Брайанта. Подходит и для зала, и для открытой площадки.",
+  "Stock": 16,
+  "CategoryName": "Мячи",
+  "Gallery": [
+   "images/ball-kobe-all-court.png",
+   "images/ball-kobe-all-court-2.png",
+   "images/ball-kobe-all-court-3.png"
+  ]
+ },
+ {
+  "ProductID": 10,
+  "ProductName": "Jordan Championship 8P",
+  "Price": 8990,
+  "CategoryID": 3,
+  "BrandID": 2,
+  "ImagePath": "ball-jordan-champ.png",
+  "IsNew": 1,
+  "BrandName": "Jordan",
+  "Image": "images/ball-jordan-champ.png",
+  "Size": "7",
+  "Color": "Оранжевый / золотой",
+  "Description": "Мяч из композитной кожи с золотым логотипом Jumpman. Мягко ложится в руку и держит форму после долгих тренировок.",
+  "Stock": 14,
+  "CategoryName": "Мячи",
+  "Gallery": [
+   "images/ball-jordan-champ.png",
+   "images/ball-jordan-champ-2.png",
+   "images/ball-jordan-champ-3.png"
+  ]
+ },
+ {
+  "ProductID": 8,
+  "ProductName": "Phoenix Suns Statement Edition",
+  "Price": 11490,
+  "CategoryID": 2,
+  "BrandID": 2,
+  "ImagePath": "jersey-suns-statement.png",
+  "IsNew": 1,
+  "BrandName": "Jordan",
+  "Image": "images/jersey-suns-statement.png",
+  "Size": "S,M,L,XL,XXL",
+  "Color": "Чёрный / фиолетовый",
+  "Description": "Тёмная джерси «Санз» сезона 2025/26 с номером Девина Букера. Серия Statement выходит под логотипом Jordan.",
+  "Stock": 9,
+  "CategoryName": "Джерси",
+  "Gallery": [
+   "images/jersey-suns-statement.png",
+   "images/jersey-suns-statement-2.png"
+  ]
+ },
+ {
+  "ProductID": 6,
+  "ProductName": "San Antonio Spurs Association Edition",
+  "Price": 10990,
+  "CategoryID": 2,
+  "BrandID": 1,
+  "ImagePath": "jersey-spurs-wemby.png",
+  "IsNew": 1,
+  "BrandName": "Nike",
+  "Image": "images/jersey-spurs-wemby.png",
+  "Size": "S,M,L,XL,XXL",
+  "Color": "Белый / серебристый",
+  "Description": "Белая выездная джерси «Сперс» с фамилией Вембаньямы на спине. Свободный крой не мешает броску, ткань быстро сохнет.",
+  "Stock": 10,
+  "CategoryName": "Джерси",
+  "Gallery": [
+   "images/jersey-spurs-wemby.png",
+   "images/jersey-spurs-wemby-2.png"
+  ]
+ },
+ {
+  "ProductID": 4,
+  "ProductName": "Kobe 3 Protro",
+  "Price": 22990,
+  "CategoryID": 1,
+  "BrandID": 1,
+  "ImagePath": "nike-kobe3-protro.png",
+  "IsNew": 1,
+  "BrandName": "Nike",
+  "Image": "images/nike-kobe3-protro.png",
+  "Size": "8,9,10,11,12,13",
+  "Color": "Чёрный",
+  "Description": "Переиздание легендарной модели Коби Брайанта с узнаваемым сетчатым верхом. Низкий профиль и быстрая реакция на площадке.",
+  "Stock": 10,
+  "CategoryName": "Кроссовки",
+  "Gallery": [
+   "images/nike-kobe3-protro.png",
+   "images/nike-kobe3-protro-2.png",
+   "images/nike-kobe3-protro-3.png",
+   "images/nike-kobe3-protro-4.png"
+  ]
+ },
+ {
+  "ProductID": 3,
+  "ProductName": "KD 18 «Aunt Pearl»",
+  "Price": 17990,
+  "CategoryID": 1,
+  "BrandID": 1,
+  "ImagePath": "nike-kd18-aunt-pearl.png",
+  "IsNew": 1,
+  "BrandName": "Nike",
+  "Image": "images/nike-kd18-aunt-pearl.png",
+  "Size": "8,9,10,11,12",
+  "Color": "Розовый",
+  "Description": "Модель Кевина Дюранта из благотворительной серии Aunt Pearl в поддержку борьбы с раком груди. Мягкая амортизация и плотная посадка.",
+  "Stock": 4,
+  "CategoryName": "Кроссовки",
+  "Gallery": [
+   "images/nike-kd18-aunt-pearl.png",
+   "images/nike-kd18-aunt-pearl-2.png",
+   "images/nike-kd18-aunt-pearl-3.png",
+   "images/nike-kd18-aunt-pearl-4.png"
+  ]
+ },
+ {
+  "ProductID": 2,
+  "ProductName": "Ja 3 Multicolor",
+  "Price": 14990,
+  "CategoryID": 1,
+  "BrandID": 1,
+  "ImagePath": "nike-ja3-multicolor.png",
+  "IsNew": 1,
+  "BrandName": "Nike",
+  "Image": "images/nike-ja3-multicolor.png",
+  "Size": "7,8,9,10,11",
+  "Color": "Фиолетовый / мультиколор",
+  "Description": "Та же модель Джа Моранта в яркой «тепловой» расцветке. Цепкая подошва с крупным протектором уверенно держит паркет.",
+  "Stock": 8,
+  "CategoryName": "Кроссовки",
+  "Gallery": [
+   "images/nike-ja3-multicolor.png",
+   "images/nike-ja3-multicolor-2.png",
+   "images/nike-ja3-multicolor-3.png",
+   "images/nike-ja3-multicolor-4.png"
+  ]
+ },
+ {
+  "ProductID": 1,
+  "ProductName": "Ja 3 Volt",
+  "Price": 14990,
+  "CategoryID": 1,
+  "BrandID": 1,
+  "ImagePath": "nike-ja3-volt.png",
+  "IsNew": 1,
+  "BrandName": "Nike",
+  "Image": "images/nike-ja3-volt.png",
+  "Size": "7,8,9,10,11,12",
+  "Color": "Салатовый / чёрный",
+  "Description": "Именная модель Джа Моранта. Лёгкий верх с рельефной текстурой и ремешок вокруг стопы надёжно держат ногу на резких рывках и прыжках.",
+  "Stock": 12,
+  "CategoryName": "Кроссовки",
+  "Gallery": [
+   "images/nike-ja3-volt.png",
+   "images/nike-ja3-volt-2.png",
+   "images/nike-ja3-volt-3.png",
+   "images/nike-ja3-volt-4.png"
+  ]
+ },
+ {
+  "ProductID": 17,
+  "ProductName": "Elite Headband",
+  "Price": 1490,
+  "CategoryID": 4,
+  "BrandID": 1,
+  "ImagePath": "gear-elite-headband.png",
+  "IsNew": 0,
+  "BrandName": "Nike",
+  "Image": "images/gear-elite-headband.png",
+  "Size": "",
+  "Color": "Чёрный",
+  "Description": "Махровая повязка на голову: впитывает пот и не сползает во время игры.",
+  "Stock": 35,
+  "CategoryName": "Экипировка",
+  "Gallery": [
+   "images/gear-elite-headband.png",
+   "images/gear-elite-headband-2.png",
+   "images/gear-elite-headband-3.png"
+  ]
+ },
+ {
+  "ProductID": 16,
+  "ProductName": "Varsity Elite Shoe Bag 14L",
+  "Price": 4490,
+  "CategoryID": 4,
+  "BrandID": 1,
+  "ImagePath": "gear-shoe-bag.png",
+  "IsNew": 0,
+  "BrandName": "Nike",
+  "Image": "images/gear-shoe-bag.png",
+  "Size": "",
+  "Color": "Чёрный",
+  "Description": "Сумка для кроссовок с вентилируемым отделением, чтобы обувь не прела после тренировки. Ручка и плечевой ремень.",
+  "Stock": 13,
+  "CategoryName": "Экипировка",
+  "Gallery": [
+   "images/gear-shoe-bag.png",
+   "images/gear-shoe-bag-2.png",
+   "images/gear-shoe-bag-3.png"
+  ]
+ },
+ {
+  "ProductID": 14,
+  "ProductName": "Elite 2.0 Crew",
+  "Price": 1990,
+  "CategoryID": 4,
+  "BrandID": 1,
+  "ImagePath": "gear-elite-socks.png",
+  "IsNew": 0,
+  "BrandName": "Nike",
+  "Image": "images/gear-elite-socks.png",
+  "Size": "S,M,L,XL",
+  "Color": "Белый / красный",
+  "Description": "Баскетбольные носки с плотной подушкой в пятке и носке. Поддерживающая вставка на своде стопы, ткань отводит влагу.",
+  "Stock": 40,
+  "CategoryName": "Экипировка",
+  "Gallery": [
+   "images/gear-elite-socks.png",
+   "images/gear-elite-socks-2.png"
+  ]
+ },
+ {
+  "ProductID": 13,
+  "ProductName": "Jordan Diamond Outdoor 8P",
+  "Price": 4990,
+  "CategoryID": 3,
+  "BrandID": 2,
+  "ImagePath": "ball-jordan-diamond.png",
+  "IsNew": 0,
+  "BrandName": "Jordan",
+  "Image": "images/ball-jordan-diamond.png",
+  "Size": "7",
+  "Color": "Коричневый",
+  "Description": "Уличный мяч с усиленной оболочкой. Классический коричневый цвет и золотые надписи, мяч долго не стирается.",
+  "Stock": 18,
+  "CategoryName": "Мячи",
+  "Gallery": [
+   "images/ball-jordan-diamond.png",
+   "images/ball-jordan-diamond-2.png",
+   "images/ball-jordan-diamond-3.png"
+  ]
+ },
+ {
+  "ProductID": 11,
+  "ProductName": "Elite All-Court 8P",
+  "Price": 3490,
+  "CategoryID": 3,
+  "BrandID": 1,
+  "ImagePath": "ball-nike-all-court.png",
+  "IsNew": 0,
+  "BrandName": "Nike",
+  "Image": "images/ball-nike-all-court.png",
+  "Size": "6,7",
+  "Color": "Оранжевый",
+  "Description": "Универсальный мяч для зала и улицы. Прочная резиновая оболочка не боится асфальта, а рельеф помогает не терять мяч.",
+  "Stock": 30,
+  "CategoryName": "Мячи",
+  "Gallery": [
+   "images/ball-nike-all-court.png",
+   "images/ball-nike-all-court-2.png",
+   "images/ball-nike-all-court-3.png"
+  ]
+ },
+ {
+  "ProductID": 9,
+  "ProductName": "Elite Championship 8P",
+  "Price": 7490,
+  "CategoryID": 3,
+  "BrandID": 1,
+  "ImagePath": "ball-nike-elite-champ.png",
+  "IsNew": 0,
+  "BrandName": "Nike",
+  "Image": "images/ball-nike-elite-champ.png",
+  "Size": "7",
+  "Color": "Оранжевый",
+  "Description": "Игровой мяч для зала: восемь панелей и глубокие канавки дают точный контроль при дриблинге и броске. Официальный размер 7.",
+  "Stock": 20,
+  "CategoryName": "Мячи",
+  "Gallery": [
+   "images/ball-nike-elite-champ.png",
+   "images/ball-nike-elite-champ-2.png",
+   "images/ball-nike-elite-champ-3.png"
+  ]
+ },
+ {
+  "ProductID": 7,
+  "ProductName": "Houston Rockets Icon Edition",
+  "Price": 10990,
+  "CategoryID": 2,
+  "BrandID": 1,
+  "ImagePath": "jersey-rockets-icon.png",
+  "IsNew": 0,
+  "BrandName": "Nike",
+  "Image": "images/jersey-rockets-icon.png",
+  "Size": "S,M,L,XL,XXL",
+  "Color": "Красный",
+  "Description": "Красная домашняя джерси «Рокетс» с номером Алперена Шенгюна. Дышащая сетка и мягкие швы — удобно и на площадке, и на трибуне.",
+  "Stock": 12,
+  "CategoryName": "Джерси",
+  "Gallery": [
+   "images/jersey-rockets-icon.png",
+   "images/jersey-rockets-icon-2.png"
+  ]
+ },
+ {
+  "ProductID": 5,
+  "ProductName": "Golden State Warriors Icon Edition",
+  "Price": 10990,
+  "CategoryID": 2,
+  "BrandID": 1,
+  "ImagePath": "jersey-gsw-icon.png",
+  "IsNew": 0,
+  "BrandName": "Nike",
+  "Image": "images/jersey-gsw-icon.png",
+  "Size": "S,M,L,XL,XXL",
+  "Color": "Синий / жёлтый",
+  "Description": "Игровая джерси «Уорриорз» в домашней синей расцветке. Лёгкая сетка Dri-FIT отводит влагу, а логотип и номер нашиты, как у формы игроков.",
+  "Stock": 15,
+  "CategoryName": "Джерси",
+  "Gallery": [
+   "images/jersey-gsw-icon.png",
+   "images/jersey-gsw-icon-2.png"
+  ]
+ }
+]

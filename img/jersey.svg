@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" width="160" height="160">
+  <path d="M50 14 C58 26 102 26 110 14 L132 22 C128 40 128 52 136 62 L136 148 H24 V62 C32 52 32 40 28 22Z" fill="#1D3C8F"/>
+  <path d="M50 14 C58 30 102 30 110 14" stroke="#FFC72C" stroke-width="6" fill="none"/>
+  <path d="M28 22 C32 40 32 52 24 62 M132 22 C128 40 128 52 136 62" stroke="#FFC72C" stroke-width="5" fill="none"/>
+  <text x="80" y="112" text-anchor="middle" font-family="Bahnschrift, 'Arial Narrow', sans-serif" font-weight="700" font-size="48" fill="#ffffff">23</text>
+</svg>

@@ -1,0 +1,30 @@
+{
+ "categories": [
+  {
+   "CategoryID": 1,
+   "CategoryName": "Кроссовки"
+  },
+  {
+   "CategoryID": 2,
+   "CategoryName": "Джерси"
+  },
+  {
+   "CategoryID": 3,
+   "CategoryName": "Мячи"
+  },
+  {
+   "CategoryID": 4,
+   "CategoryName": "Экипировка"
+  }
+ ],
+ "brands": [
+  {
+   "BrandID": 2,
+   "BrandName": "Jordan"
+  },
+  {
+   "BrandID": 1,
+   "BrandName": "Nike"
+  }
+ ]
+}

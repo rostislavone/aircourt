@@ -1,0 +1,67 @@
+/* Дополнения для рабочего сайта (основной дизайн — в style.css, как в макете) */
+body { overflow-x: hidden; }
+
+/* Плавную прокрутку колёсиком делает app.js, поэтому CSS-плавность выключаем, чтобы они не спорили */
+html { scroll-behavior: auto; }
+
+/* Выпадающий поиск под лупой в шапке (появляется так же плавно, как меню категорий) */
+.head-search {
+  position: absolute; top: 68px; right: 0; z-index: 40;
+  display: flex; gap: 8px; width: 380px; max-width: calc(100vw - 32px); padding: 10px;
+  background: var(--panel); border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 24px 60px rgba(0,0,0,0.5);
+  opacity: 0; visibility: hidden; transform: translateY(-8px);
+  transition: opacity .25s, transform .25s, visibility .25s;
+}
+.head-search.open { opacity: 1; visibility: visible; transform: none; }
+.head-search .input { flex: 1; height: 40px; }
+.head-search .btn { height: 40px; }
+#headSearchButton { cursor: pointer; }
+
+/* Фильтры каталога: вкладки слева, счётчик и списки справа */
+.filters { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 24px; }
+.spacer { flex: 1; }
+
+/* Галерея ракурсов на странице товара */
+.thumbs img { width: 80%; object-fit: contain; }
+
+.toast {
+  position: fixed; left: 50%; bottom: 28px; transform: translate(-50%, 20px); opacity: 0; z-index: 100;
+  background: var(--primary); color: var(--on-primary); padding: 14px 22px; border-radius: 14px; font-size: 14px; font-weight: 600;
+  box-shadow: 0 12px 30px rgba(0,0,0,.4); pointer-events: none; max-width: calc(100vw - 32px);
+  transition: opacity .3s, transform .3s;
+}
+/* сообщение выезжает снизу */
+.toast.show { opacity: 1; transform: translate(-50%, 0); }
+.toast.error { background: var(--accent); color: var(--on-accent); }
+
+.form-error { color: var(--accent-text); font-size: 13px; min-height: 20px; margin: 4px 0 10px; }
+.empty { color: var(--muted-2); font-size: 15px; padding: 40px 0; }
+.p-card, .cart-item, .size, .seg span, .nav a { user-select: none; }
+.btn[disabled] { opacity: .45; cursor: default; }
+.loading { color: var(--muted); padding: 24px 0; }
+.qty button:disabled { color: var(--dim-dark); }
+.cart-thumb img { cursor: pointer; }
+.gallery-main img { max-height: 80%; object-fit: contain; }
+.p-img img, .cart-thumb img, .gallery-main img, .mega-promo img { object-fit: contain; }
+.p-img img { height: 66%; }
+
+/* ---------- Админ-панель сайта ---------- */
+.admin-login { max-width: 420px; margin: 80px auto; padding: 40px; border: 1px solid var(--line); border-radius: 32px; text-align: center; }
+.admin-login .h2 { margin-bottom: 8px; }
+.admin-login .lead { margin: 0 auto 24px; font-size: 14px; }
+.admin-login .input { text-align: center; margin-bottom: 12px; }
+.admin-page { padding-top: 28px; padding-bottom: 40px; }
+.admin-side button { display: block; width: 100%; text-align: left; padding: 10px 14px; border-radius: 12px; border: 0;
+  background: transparent; font-size: 14px; font-weight: 600; color: var(--muted); cursor: pointer; }
+.admin-side button:hover { color: var(--ink); }
+.admin-side button.active { background: var(--primary); color: var(--on-primary); }
+.admin-table-box { max-height: calc(100vh - 220px); overflow: auto; }
+.table tr.clickable { cursor: pointer; }
+.table tr.clickable:hover td { background: var(--card); }
+.editor .field { margin-bottom: 10px; }
+.editor textarea.input { height: 80px; padding: 10px 14px; resize: vertical; }
+.editor .preview { width: 64px; height: 64px; border-radius: 12px; background: var(--card); object-fit: contain; }
+.editor .photo-row { display: flex; gap: 10px; align-items: center; margin-bottom: 12px; }
+.editor .info { font-size: 13px; color: var(--muted-2); margin-bottom: 12px; line-height: 1.6; }
+.editor .check { margin: 4px 0 14px; }
+@media (max-width: 1000px) { .admin-table-box { max-height: none; } }

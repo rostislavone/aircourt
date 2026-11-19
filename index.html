@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AIRCOURT — баскетбольный магазин</title>
+  <link rel="icon" href="img/logo.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="expand.css">
+</head>
+<body>
+
+<!-- ===== Шапка ===== -->
+<header class="header" id="header">
+  <div class="wrap header-row">
+    <a class="icon-btn burger" id="burger"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg></a>
+    <a class="logo" href="#home"><img src="img/logo.svg" alt="aircourt"></a>
+    <nav class="nav" id="nav">
+      <a href="#catalog/0">Новинки</a>
+      <a data-menu="1" href="#catalog/1">Кроссовки <span class="chev">▼</span></a>
+      <a data-menu="2" href="#catalog/2">Джерси <span class="chev">▼</span></a>
+      <a data-menu="3" href="#catalog/3">Мячи <span class="chev">▼</span></a>
+      <a data-menu="4" href="#catalog/4">Экипировка <span class="chev">▼</span></a>
+    </nav>
+    <div class="header-tools">
+      <a class="icon-btn" id="headSearchButton" title="Поиск"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></a>
+      <a class="login-link" id="userLink" href="#login">Войти</a>
+      <a class="btn btn-sm cart-btn" href="#cart">Корзина <span class="count" id="cartCount">0</span></a>
+    </div>
+  </div>
+  <div class="mega" id="mega"></div>
+  <!-- выпадающее поле поиска под лупой -->
+  <form class="head-search" id="headSearch">
+    <input class="input" id="headSearchInput" placeholder="Найти кроссовки, джерси, мяч…" autocomplete="off">
+    <button class="btn btn-sm">Найти</button>
+  </form>
+</header>
+
+<!-- ===== Главная + каталог ===== -->
+<section class="screen" id="home">
+  <!-- первый экран: большой заголовок по центру на фоне фото с кольцом -->
+  <div class="hero">
+    <img class="hero-bg" src="images/hero-hoop.jpg" alt="">
+    <h1 class="h1">Экипировка, которая<br>играет за тебя</h1>
+    <p class="lead">Кроссовки, джерси, мячи и экипировка от брендов НБА. Только оригиналы и доставка за день.</p>
+    <form class="search-pill" id="searchForm"><input id="searchInput" placeholder="Что ты ищешь?"><button class="go" style="border:0;cursor:pointer">→</button></form>
+    <div class="hero-small">Например: Ja 3, джерси Warriors, мяч Elite</div>
+  </div>
+
+  <!-- бегущая строка с брендами (текст повторён два раза, чтобы лента шла без разрыва) -->
+  <div class="marquee">
+    <div class="marquee-track">
+      <span>NIKE</span><span><i>●</i></span><span>JORDAN</span><span><i>●</i></span><span>ADIDAS</span><span><i>●</i></span><span>PUMA</span><span><i>●</i></span><span>WILSON</span><span><i>●</i></span><span>SPALDING</span><span><i>●</i></span>
+      <span>NIKE</span><span><i>●</i></span><span>JORDAN</span><span><i>●</i></span><span>ADIDAS</span><span><i>●</i></span><span>PUMA</span><span><i>●</i></span><span>WILSON</span><span><i>●</i></span><span>SPALDING</span><span><i>●</i></span>
+    </div>
+  </div>
+
+  <!-- четыре шага заказа -->
+  <div class="block wrap" style="margin-top:56px">
+    <div class="block-head reveal"><div class="caps">Как это работает</div><h2 class="h2">От выбора до двери —<br><span class="dim">4 шага</span></h2></div>
+    <div class="steps reveal">
+      <div class="step-card"><div class="num">01</div><div><h3>Выбери товар</h3><p>Каталог с фильтрами по категориям, брендам и цене.</p></div></div>
+      <div class="step-card"><div class="num">02</div><div><h3>Подбери размер</h3><p>Таблица размеров для каждой модели и бесплатный обмен.</p></div></div>
+      <div class="step-card"><div class="num">03</div><div><h3>Оформи заказ</h3><p>Корзина, промокод и адрес доставки — на одной странице.</p></div></div>
+      <div class="step-card"><div class="num">04</div><div><h3>Получи за день</h3><p>Статус заказа видно в личном кабинете — от сборки до двери.</p></div></div>
+    </div>
+  </div>
+
+  <!-- баннер: надпись по центру, под ней три большие фото веером -->
+  <div class="block wrap">
+    <div class="banner light dots-bg reveal">
+      <div class="banner-text">
+        <div class="caps">Новый сезон · 2026</div>
+        <h2 class="h2">Собери свой комплект</h2>
+        <p>Кроссовки, джерси, мячи и экипировка — всё в одном заказе.</p>
+        <a class="btn" id="bannerButton">Смотреть новинки →</a>
+      </div>
+      <div class="hero-photos">
+        <img class="hp hp-left" src="images/hero-2.jpg" alt="Баскетбольная арена">
+        <img class="hp hp-right" src="images/hero-3.jpg" alt="Площадка перед игрой">
+        <img class="hp hp-center" src="images/hero-1.jpg" alt="Игра на площадке">
+      </div>
+    </div>
+  </div>
+
+  <!-- три колонки: топ продаж, «выбрано для тебя», джерси и мячи -->
+  <div class="picks wrap reveal">
+    <div><div class="bar">Топ продаж <span>↗</span></div><div id="topList"></div></div>
+    <div class="firefly-col">
+      <div class="bar center">Выбрано для тебя</div>
+      <a class="firefly" id="firefly"><img id="fireflyImage" alt=""></a>
+      <div class="firefly-name" id="fireflyName"></div>
+      <div class="firefly-meta caps" id="fireflyMeta"></div>
+      <a class="btn btn-accent btn-sm" id="fireflyButton">Смотреть →</a>
+    </div>
+    <div><div class="bar">Джерси и мячи <span>↗</span></div><div id="gearList"></div></div>
+  </div>
+
+  <!-- новинки на белом блоке -->
+  <div class="light block block-panel" id="newBlock">
+    <div class="wrap">
+      <div class="block-head reveal">
+        <div class="caps">Новинки</div>
+        <h2 class="h2" id="newTitle">Кроссовки. Джерси. Мячи. <span class="dim">Новинки.</span></h2>
+        <p class="lead">Главные релизы сезона — уже на складе.</p>
+      </div>
+      <div class="grid reveal" id="newGrid"></div>
+    </div>
+  </div>
+
+  <div class="block wrap" id="catalog">
+    <div class="block-head"><h2 class="h2">Всё для игры —<br><span class="dim">в одном каталоге</span></h2></div>
+    <div class="filters">
+      <div class="seg" id="catalogTabs"></div>
+      <span class="spacer"></span>
+      <span class="muted" id="foundCount" style="font-size:13px"></span>
+      <select class="select" id="brandSelect" style="width:auto;height:38px"></select>
+      <select class="select" id="sortSelect" style="width:auto;height:38px">
+        <option value="new">Сначала новые</option>
+        <option value="cheap">Сначала дешёвые</option>
+        <option value="expensive">Сначала дорогие</option>
+      </select>
+    </div>
+    <div class="grid" id="catalogGrid"></div>
+  </div>
+
+  <!-- оранжевый блок: где играют + отзывы -->
+  <div class="orange dots-bg block block-panel">
+    <div class="wrap">
+      <div class="block-head reveal"><h2 class="h2">Нам доверяют сотни<br>игроков и команд</h2></div>
+    </div>
+    <div class="marquee">
+      <div class="marquee-track">
+        <span>Школьные команды</span><span><i>—</i></span><span>Любительские лиги</span><span><i>—</i></span><span>Стритбол</span><span><i>—</i></span><span>Тренировки</span><span><i>—</i></span><span>Турниры</span><span><i>—</i></span>
+        <span>Школьные команды</span><span><i>—</i></span><span>Любительские лиги</span><span><i>—</i></span><span>Стритбол</span><span><i>—</i></span><span>Тренировки</span><span><i>—</i></span><span>Турниры</span><span><i>—</i></span>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="reviews reveal">
+        <div class="review"><p>«Взял Ja 3 — пришли на следующий день, размер точно по таблице. Уже третий заказ здесь.»</p><div class="who"><div class="ava" style="background:#FF6A00;color:#0A0A0A">АК</div><div>Артём К.<small>Игрок любительской лиги</small></div></div></div>
+        <div class="review"><p>«Заказываем форму и мячи на всю команду. Удобно, что всё в одном месте и есть история заказов.»</p><div class="who"><div class="ava" style="background:#0A0A0A">МС</div><div>Мария С.<small>Тренер школьной команды</small></div></div></div>
+        <div class="review"><p>«Джерси оригинальное, качество отличное. Отдельный плюс за быструю поддержку.»</p><div class="who"><div class="ava" style="background:#6B6B6B">ДВ</div><div>Денис В.<small>Покупатель</small></div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- вопросы и ответы: тег <details> сам раскрывается по клику, JavaScript не нужен -->
+  <div class="block wrap">
+    <div class="block-head reveal"><div class="caps">Вопросы</div><h2 class="h2">Всё, что нужно знать<br><span class="dim">перед покупкой</span></h2></div>
+    <div class="faq reveal">
+      <details><summary>Как быстро привезут заказ?</summary><p>По городу — на следующий день после оформления. Статус заказа видно в личном кабинете.</p></details>
+      <details><summary>Сколько стоит доставка?</summary><p>Бесплатно при заказе от 10 000 ₽. Если сумма меньше, стоимость доставки видна в корзине до оформления.</p></details>
+      <details><summary>Что делать, если не подошёл размер?</summary><p>Обменяем бесплатно в течение 14 дней. Главное — сохранить бирки и упаковку.</p></details>
+      <details><summary>Все товары оригинальные?</summary><p>Да. Мы работаем напрямую с брендами, каждая пара проходит проверку перед отправкой.</p></details>
+      <details><summary>Как применить промокод?</summary><p>Введите его в корзине в поле «Промокод» и нажмите «ОК» — скидка сразу появится в итоговой сумме.</p></details>
+    </div>
+  </div>
+
+  <!-- призыв в конце страницы -->
+  <div class="block wrap">
+    <div class="cta block-panel reveal" style="margin:0">
+      <div class="cta-text glow-bg dots-bg">
+        <h2 class="h2">Хватит смотреть на кроссовки<br><span class="serif">в ленте.</span></h2>
+        <p class="lead">Новые релизы каждую пятницу. Бесплатная доставка от 10 000 ₽.</p>
+        <a class="btn btn-light" href="#catalog/1">Перейти в каталог</a>
+      </div>
+      <img class="cta-photo" src="images/cta-dunk.jpg" alt="Игрок забивает сверху в прыжке">
+    </div>
+  </div>
+</section>
+
+<!-- ===== Товар ===== -->
+<section class="screen" id="product"><div class="wrap" id="productBox"></div></section>
+
+<!-- ===== Корзина ===== -->
+<section class="screen" id="cart"><div class="wrap" id="cartBox"></div></section>
+
+<!-- ===== Вход и регистрация ===== -->
+<section class="screen" id="login">
+  <div class="auth">
+    <div class="auth-art dark">
+      <div class="fan" id="authFan"></div>
+      <h2 class="h2">Твоя игра<br><span class="dim">начинается здесь.</span></h2>
+    </div>
+    <div class="auth-box">
+      <div class="inner">
+        <div class="seg" id="authTabs"><span class="active" data-tab="login">Вход</span><span data-tab="reg">Регистрация</span></div>
+        <form id="loginForm">
+          <h3 class="h3">С возвращением</h3>
+          <p class="lead">Это демо-версия: подойдут любые email и пароль. Корзина и заказы сохраняются только в вашем браузере.</p>
+          <div class="field"><label>Email</label><input class="input" name="email" autocomplete="username"></div>
+          <div class="field"><label>Пароль</label><input class="input" name="password" type="password" autocomplete="current-password"></div>
+          <div class="form-error" id="loginError"></div>
+          <button class="btn btn-block">Войти</button>
+        </form>
+        <form id="regForm" style="display:none">
+          <h3 class="h3">Новый аккаунт</h3>
+          <p class="lead">Заполните данные — это займёт минуту.</p>
+          <div class="row-2">
+            <div class="field"><label>Имя</label><input class="input" name="firstName"></div>
+            <div class="field"><label>Фамилия</label><input class="input" name="lastName"></div>
+          </div>
+          <div class="field"><label>Email</label><input class="input" name="email"></div>
+          <div class="field"><label>Телефон</label><input class="input" name="phone" placeholder="+7 (___) ___-__-__"></div>
+          <div class="field"><label>Пароль (не меньше 6 символов)</label><input class="input" name="password" type="password" autocomplete="new-password"></div>
+          <div class="form-error" id="regError"></div>
+          <button class="btn btn-accent btn-block">Создать аккаунт</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== Личный кабинет ===== -->
+<section class="screen" id="account"><div class="wrap" id="accountBox"></div></section>
+
+<!-- ===== Подвал ===== -->
+<footer class="footer wrap">
+  <div class="wordmark">aircourt</div>
+  <div class="footer-cols">
+    <div><h5>Каталог</h5><ul><li><a href="#catalog/1">Кроссовки</a></li><li><a href="#catalog/2">Джерси</a></li><li><a href="#catalog/3">Мячи</a></li><li><a href="#catalog/4">Экипировка</a></li></ul></div>
+    <div><h5>Покупателям</h5><ul><li>Доставка</li><li>Оплата</li><li>Возврат</li></ul></div>
+    <div><h5>Помощь</h5><ul><li>Таблица размеров</li><li>Вопросы и ответы</li></ul></div>
+    <div><h5>Аккаунт</h5><ul><li><a href="#account">Личный кабинет</a></li><li><a href="#cart">Корзина</a></li></ul></div>
+    <div><h5>Контакты</h5><ul><li>+7 (900) 000-00-00</li><li>support@aircourt.ru</li></ul></div>
+  </div>
+  <div class="footer-bottom"><img src="img/logo.svg" alt="aircourt"><span>© 2026 AIRCOURT · учебный проект · демо-версия сайта</span></div>
+</footer>
+
+<div class="toast" id="toast"></div>
+<script src="common.js"></script>
+<!-- демо для GitHub Pages: заменяет запросы к серверу на данные из папки data -->
+<script src="demo-api.js"></script>
+<script src="app.js"></script>
+<script src="expand.js"></script>
+<script src="pages.js"></script>
+</body>
+</html>
